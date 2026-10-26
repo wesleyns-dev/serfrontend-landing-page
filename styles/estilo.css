@@ -59,3 +59,43 @@ body{
 .hero nav a:hover{
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 860px;
+}
+
+section{
+    padding-top: 32px;
+}
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+article h2{
+    border-bottom: 2px solid #ccc;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.btn{
+    background-color: #cdc7c3;
+    display: block;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.rodape{
+    color: white;
+    background-color: #6b6c68;
+    text-align: center;
+    padding: 30px;
+    text-shadow: 2px 2px 2px black;
+}
